@@ -17,3 +17,13 @@
 
 \* values of 100 - games with online multiplayer <br>
 \* values of 150 - games considered to be MMOs (massive multipler online games)
+
+## PROGRESS REPORT
+**Student Check-in:**
+
+|WHAT’S GOING WELL/STRUGGLES|DEVELOPMENT PLAN|INSTRUCTOR FEEDBACK|
+|---------------------------|----------------|-------------------|
+|-scraping web pages went well despite a lot of trial and error with the web scraper|   |      |
+|-preliminary data cleaning also went well|                |                   |
+|- no huge struggles yet, spent a lot of time troubleshooting for web scraper and data cleaning but was eventually able to get desired results  |                |                   |
+|-there is a lot of reviews, wondering if I should random sample a smaller subset? When I get to modeling run time could be pretty long |                |                   |

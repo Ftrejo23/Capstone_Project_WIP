@@ -32,7 +32,7 @@
 ### Part 3
 |WHAT’S GOING WELL/STRUGGLES|DEVELOPMENT PLAN|INSTRUCTOR FEEDBACK|
 |---------------------------|----------------|-------------------|
-|We have 9 columns that we can do EDA on which includes are target variable. Created functions to help with EDA.|   |      |
+|We have 9 columns that we can do EDA on which includes our target variable. Created functions to help with EDA.|   |      |
 |For continous variables, looked at scatter plot with target and plotted frequency of the variable.|   |      |
 |For categorical variables, looked at value counts and grouped by variable to see relationship with target|   |      |
 |We identified a few outliers in our data, specifically in our target variable that we may want to remove prior to modeling.|   |      |

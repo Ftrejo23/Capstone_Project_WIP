@@ -4,6 +4,7 @@
 
 - [Problem Statement](#Problem-Statement)
 - [Project Directory](#Project-Directory)
+- [Project Requirements](#Project-Requirements)
 - [Data Dictionary](#Data-Dictionary)
 - [Executive Summary](#Executive-Summary)
 - [Conclusions & Recommendations](#Conclusions--Recommendations)
@@ -34,6 +35,25 @@ Capstone_Project
 |   |__ top_100_xboxone_games.csv
 |__ README.md
 ```
+
+## Project Requirements
+The following libraries were used in the project.
+- Requests
+- BeautifulSoup
+- Sleep
+- Datetime
+- Pandas
+- Numpy
+- Clean
+- Seaborn
+- Stats
+- Matplotlib
+- Sklearn
+- Spacy
+- NLTK
+
+If attempting to run the webscraper please note that Metacritic sometimes limits how often you can scrape. You might have to run the scraper for each consoles separately not right after one another. If the scraper fails please either wait or download the required files [here](https://we.tl/t-dy4FRbQ9fs). If the link has expired please contact me [here](https://www.linkedin.com/in/francisco-trejo07/). 
+
 
 ## Data Dictionary
 |Feature|Type|Description|

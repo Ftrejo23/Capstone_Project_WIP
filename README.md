@@ -6,7 +6,7 @@
 - [Project Directory](#Project-Directory)
 - [Data Dictionary](#Data-Dictionary)
 - [Executive Summary](#Executive-Summary)
-- [Conclusions & Recommendations](#Conclusions-&amp-Recommendations)
+- [Conclusions & Recommendations](#Conclusions--Recommendations)
 
 ## Problem Statement
 

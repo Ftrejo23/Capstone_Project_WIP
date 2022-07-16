@@ -16,6 +16,17 @@ Video games take years of development time and cost anywhere from a few million 
 ## Project Directory
 ```
 Capstone_Project
+|__ assets
+|   |__ avg_user_score.jpg
+|   |__ categorical_consoles_eda.jpg
+|   |__ categorical_developer_eda.jpg
+|   |__ categorical_genre_eda.jpg
+|   |__ confusion_matrix_log_regression.jpg
+|   |__ continuous_critic_score_eda.jpg
+|   |__ continuous_critic_score_hist_eda.jpg
+|   |__ lemm_log_coefs.jpg
+|   |__ log_coefs.jpg
+|   |__ vectorizing_summary_eda.jpg
 |__ code
 |   |__ 01_Web_Scraping_Metactritic.ipynb
 |   |__ 02_Data_Cleaning.ipynb

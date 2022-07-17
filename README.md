@@ -1,4 +1,4 @@
-# Video Game Average User Score Classification Project - WIP
+# Video Game Average User Score Classification Project 
 
 ## Contents
 
@@ -7,6 +7,11 @@
 - [Project Requirements](#Project-Requirements)
 - [Data Dictionary](#Data-Dictionary)
 - [Executive Summary](#Executive-Summary)
+- [Data Collection](#Data-Collection)
+- [Data Cleaning](#Data-Cleaning)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Preprocessing](#Preprocessing)
+- [Modeling](#Modeling)
 - [Conclusions & Recommendations](#Conclusions--Recommendations)
 
 ## Problem Statement
@@ -95,6 +100,20 @@ For preprocessing all categorical variables were dummied. For video game names a
 
 For modeling, we used a Logistic Regression and Random Forest model for their interpretability. A grid search was performed for both models to find the best hyperparameters. Coefficients were extracted and interpreted in relation to our target. A confusion matrix was also created along with a classification report to see what was the precision and recall. The random forests model produced the highest accuracy score but due to its lack of interpretability with its coefficients emphasis was made to improve the logistic regression model. Text features were lemmatized and vectorized and then re-run in our logistic regression model. Coefficients were once again extracted and examined, successfully identifying the top 10 features to improve the chances of a game having a score above the median average user score of 8.4.
 
+## Data Collection
+For our data, we set out to scrape the reviews from Metacritic for the top 100 games of all time for 6 different consoles. Those consoles were PlayStation 4/5, PC, Nintendo Switch, Xbox One, and Xbox Series X. Using the Requests library along with BeautifulSoup we created a function that scraped at most 1000 reviews per game for all 100 games in the all-time list for each console. Once scraped, the reviews were saved to a csv file. The results included over 100,000 reviews that were all later merged into a final data frame. The individual csv files for the game reviews are available in the [data](./data) folder (the larger combined csv files are not in the repo due to size limits, see [Project Requirements](#Project-Requirements) to download the larger files).
+
+## Data Cleaning
+For data cleaning, we explored each feature in our combined data frame. Each feature was checked for any Null values, if any were present steps were taken to impute these missing values. When scraped from Metacritic some columns had unnecessary information that was later cleaned to extract the values needed for modeling. For our text columns, summary and user reviews, we used the [clean](https://pypi.org/project/clean-text/) function which helped us either get rid of or encode certain text to make it easier for vectorizing later on.
+
+## Exploratory Data Analysis
+![](./assets/avg_user_score.jpg)
+
+
+
+## Preprocessing
+
+## Modeling
 
 
 ## Conclusions & Recommendations

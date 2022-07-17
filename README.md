@@ -107,9 +107,11 @@ For our data, we set out to scrape the reviews from Metacritic for the top 100 g
 For data cleaning, we explored each feature in our combined data frame. Each feature was checked for any Null values, if any were present steps were taken to impute these missing values. When scraped from Metacritic some columns had unnecessary information that was later cleaned to extract the values needed for modeling. For our text columns, summary and user reviews, we used the [clean](https://pypi.org/project/clean-text/) function which helped us either get rid of or encode certain text to make it easier for vectorizing later on.
 
 ## Exploratory Data Analysis
-![](./assets/avg_user_score.jpg)
+During our EDA we explored every feature and its relationship to our target. Our target variable relied heavily on the average user score. Preliminary EDA was done on the feature such as plotting a histogram to see the distribution of the variable. ![](./assets/avg_user_score.jpg) The next thing to do was to calculate our target, which is whether or not we are at/above or below the median average user score of 8.4. This helped formulate our problem to be categorical and helped balance out the target variable by using the median. We also created a few functions to better facilitate the EDA for the rest of our columns. With this, we were ready to continue.
 
+For our categorical features, we used bar charts to see the value counts of the feature, for those with too many unique values we looked at the top 10. To see the relationship between a categorical feature with our target we used grouped bar charts to visualize the counts of our variables above/below our target as seen below![](./assets/categorical_consoles_eda.jpg) This helps us answer the question for each of our categorical variables, how many are above/below the target.
 
+For our continuous variables, we used scatter plots and box plots to help us identify any outliers that are present. We also plotted multiple histograms to help us discern the density of our continuous variable with our target. ![](./assets/continuous_critic_score_hist_eda.jpg) This process helped us gain some further insight into what our data looks like and get a better grasp of how this data can help us answer our question.
 
 ## Preprocessing
 

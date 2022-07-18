@@ -120,7 +120,9 @@ The final step before modeling was to preprocess our data and get it ready to us
 For modeling, we used a Logistic Regression and Random Forest model for their interpretability. A grid search was performed for both models to find the best hyperparameters. Coefficients were then extracted and interpreted in relation to our target. A confusion matrix was also created along with a classification report to see what was the precision and recall.![](./assets/confusion_matrix_log_regression.jpg)
 The random forests model produced the highest accuracy score but due to its lack of interpretability with its coefficients, emphasis was made to improve the logistic regression model. Since we had already grid searched the best hyperparameters the next thing was to go back and look at our data, particularly the text features, summary and user reviews.
 
-We used spacy to be able to lemmatize our text. Both user reviews and summary columns were lemmatized, both taking a substantial amount of run time. Once that was done we then again performed a grid search for our logistic regression model. Our model score did improve with a final accuracy score of 87.11%, 37.11% better than the baseline. We also had a confidence interval of 0.8719 ± 0.0112. We also extracted our top 10 coefficients from our model which helped us identify the best features to focus on to improve the chances of a game having a score above the median average user score of 8.4. ![](./assets/lemm_log_coefs.jpg)
+We used spacy to be able to lemmatize our text. Both user reviews and summary columns were lemmatized, both taking a substantial amount of run time. Once that was done we then again performed a grid search for our logistic regression model. Our model score did improve with a final accuracy score of 87.11%, 37.11% better than the baseline. We also had a confidence interval of 0.8719 ± 0.0112. We also extracted our top 10 coefficients from our model which helped us identify the best features to focus on to improve the chances of a game having a score above the median average user score of 8.4. 
+
+![](./assets/lemm_log_coefs.jpg)
 
 
 ## Conclusions & Recommendations

@@ -114,6 +114,7 @@ For our categorical features, we used bar charts to see the value counts of the 
 For our continuous variables, we used scatter plots and box plots to help us identify any outliers that are present. We also plotted multiple histograms to help us discern the density of our continuous variable with our target. ![](./assets/continuous_critic_score_hist_eda.jpg) This process helped us gain some further insight into what our data looks like and get a better grasp of how this data can help us answer our question.
 
 ## Preprocessing
+The final step before modeling was to preprocess our data and get it ready to use in our models. Here we looked at some of the outliers that were present in our EDA and removed them as necessary. For our categorical variables we created dummy columns but for categorical variables with too many unique values we feature engineered columns. These columns consisted of “appears in top 20 or top 25 most frequent” to be able to reduce the number of columns generated. For our text columns we vectorized the words using TfidVectorizer creating 50 features for each text column. We also plotted the 15 most frequent words to see how many times they appeared in our corpus![](./assets/vectorizing_summary_eda.jpg) We also addressed the imbalance present in our target column and randomly sampled rows that were above the target to create a balance. Once that was done we saved our final csv file that was ready for modeling.
 
 ## Modeling
 

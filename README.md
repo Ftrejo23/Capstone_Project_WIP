@@ -2,17 +2,17 @@
 
 ## Contents
 
-- [Problem Statement](#Problem-Statement)
-- [Project Directory](#Project-Directory)
-- [Project Requirements](#Project-Requirements)
-- [Data Dictionary](#Data-Dictionary)
-- [Executive Summary](#Executive-Summary)
-- [Data Collection](#Data-Collection)
-- [Data Cleaning](#Data-Cleaning)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Preprocessing](#Preprocessing)
-- [Modeling](#Modeling)
-- [Conclusions & Recommendations](#Conclusions--Recommendations)
+1. [Problem Statement](#Problem-Statement)
+2. [Project Directory](#Project-Directory)
+3. [Project Requirements](#Project-Requirements)
+4. [Data Dictionary](#Data-Dictionary)
+5. [Executive Summary](#Executive-Summary)
+6. [Data Collection](#Data-Collection)
+7. [Data Cleaning](#Data-Cleaning)
+8. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+9. [Preprocessing](#Preprocessing)
+10. [Modeling](#Modeling)
+11. [Conclusions & Recommendations](#Conclusions--Recommendations)
 
 ## Problem Statement
 

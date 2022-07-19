@@ -16,7 +16,7 @@
 
 ## Problem Statement
 
-Video games take years of development time and cost anywhere from a few million to well over a hundred million dollars to produce. There are plenty of examples of video games that are poorly received and never establish a lasting player base. There are a few potential metrics that may determine how a game performs. One metric that can determine how a game performs is video game reviews, particularly what users score a game. Using video game reviews from Metacritic I want to create a model that will help us identify the attributes of a video game that will help it get a high average user score.
+Video games take years of development time and cost anywhere from a few million to well over a hundred million dollars to produce. There are plenty of examples of video games that are poorly received and never establish a lasting player base. There are a few potential metrics that may determine how a game performs. One metric that can determine how a game performs is video game reviews, particularly user scores for a game. Using video game reviews from Metacritic I want to create a model that will help us identify the attributes of a video game that will help it get a high average user score.
 
 ## Project Directory
 ```
@@ -68,7 +68,7 @@ The following libraries were used in the project.
 - Spacy
 - NLTK
 
-If attempting to run the web scraper please note that Metacritic sometimes limits how often you can scrape. You might have to run the scraper for each console separately, not right after one another. If the scraper fails please either wait or download the required files [here](https://we.tl/t-dy4FRbQ9fs). If the link has expired please contact me [here](https://www.linkedin.com/in/francisco-trejo07/). 
+If attempting to run the web scraper please note that Metacritic sometimes limits how often you can scrape. You might have to run the scraper for each console separately, not immediately one after the other. If the scraper fails please either wait or download the required files [here](https://we.tl/t-dy4FRbQ9fs). If the link has expired please contact me [here](https://www.linkedin.com/in/francisco-trejo07/). 
 
 
 ## Data Dictionary
